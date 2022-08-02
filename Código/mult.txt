@@ -1,0 +1,20 @@
+00 44 20 ; LDA #20H
+02 B4 1E ; JZ #1EH
+04 44 1F ; LDA #1FH
+06 54 21 ; ADD #21H
+08 24 21 ; STA #21H
+0A 94 16 ; JC #16H
+0C 44 20 ; LDA #20H
+0E 50 FF ; ADD #0FFH       
+10 24 20 ; STA #20H
+12 B4 1E ; JZ #1EH
+14 84 00 ; JMP #00H
+16 44 22 ; LDA #22H
+18 50 01 ; ADD #01H        
+1A 24 22 ; STA #22H
+1C 84 0C ; JMP #0CH
+1E F0    ; HLT             
+1F 08    ; DB #08H  
+20 00    ; DB #00H  
+21 00    ; DB #00H  
+22 00    ; DB #00H  
